@@ -1,0 +1,122 @@
+---
+title: "Curriculum vitae"
+subtitle: "Falnésio Ghander Soares Borges"
+author: "19/08/1992"
+description: "Curriculum vitae do Falnésio Ghander Soares Borges"
+cover-image: "img/social_image.png"
+github-repo: jweisber/vip
+classoption: justified
+site: bookdown::bookdown_site
+---
+
+# . {-}
+
+```{r setup, echo=FALSE, include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  dev.args = list(bg = "transparent")
+)
+if (knitr:::is_latex_output()) {
+  options(knitr.table.format = 'pandoc')
+  knitr::opts_chunk$set(dpi = 300)
+}
+if (knitr:::is_html_output()) {
+  knitr::include_graphics('img/social_image.png', dpi = NA)
+}
+
+library(tufte)
+library(dplyr)
+library(ggplot2)
+library(ggforce)
+library(png)
+library(grid)
+library(emoGG)
+library(ptree)
+
+theme_set(theme_minimal())
+
+bookred <- rgb(228, 6, 19, maxColorValue = 255)
+bookblue <- rgb(0, 92, 169, maxColorValue = 255)
+bookpurple <- rgb(114, 49, 94, maxColorValue = 255)
+bookgreen <- rgb(26, 179, 22, maxColorValue = 255)
+```
+
+`r newthought("Graduado")` em Ciências Econômicas na Universidade Federal de Juiz de Fora, Campus GV e participa do Núcleo de Agroecologia de Governador Valadares NAGÔ. Tem interesse em sistemas complexos. Acredita que modelos que incorporam as sutilezas da heterogeneidade social são úteis na produção de soluções democráticas mais eficazes e eficientes para demandas socioeconômicas e que o estudo econômico tem muito espaço para multidisciplinaridade na formulação de modelos simples mais próximos da realidade.
+    ```{marginfigure}
+    Informações de contato: 
+      
+    [falnesio.ghander@economia.ufjf.br](mailto:falnesio.ghander@economia.ufjf.br)
+    
+    [Telegram: (33) 9 2000-5046](https://t.me/falnesio)
+    
+    [LinkedIn](https://www.linkedin.com/in/faln%C3%A9sio-g-s-borges-43b615149/) 
+        
+    [Lattes](http://lattes.cnpq.br/8513885038003903)
+    
+    [Github](https://github.com/Falnesio)
+  
+```
+É um pesquisador muito dedicado e focado, é acostumado a entrar em projetos e iniciativas novas, se adaptando aos processos, metodologias e técnicas, aceitando desafios e sempre aprendendo. Trabalha bem em equipe e sempre busca passar o conhecimento que adquiriu para frente.
+
+<pre>
+
+
+
+
+
+</pre>
+Habilidades Virtuais
+------
+  ------
+
+**Linguagens**
+  - Português Fluente
+  - Inglês Fluente
+  - Português Fluente
+  - Inglês Fluente
+  - Inglês Fluente
+  - Português Fluente
+  - Inglês Fluente
+  
+**Linguagens de Programação**
+  - R
+  - Python
+  - SQL
+  
+**Softwares**
+  - Microsoft Excel
+  - Microsoft Word
+
+<pre>
+
+
+</pre>
+A "cheat sheet" summarizing key definitions and formulas appears in [Appendix][Cheat Sheet] [A][Cheat Sheet]. Further appendices cover the axiomatic construction of probability theory, Hume's problem of induction, and Goodman's new ridle of induction.
+
+`r newthought("I")` usually get a mix of students in my course, with different ideological inclinations and varying levels of background. For some the technical material is easy, even review. For others, a healthy skepticism about scientific methods and discourses comes naturally. My goal is to get these students all more or less on the same page.
+
+By the end of the course, students with little formal background have a bevy of tools for thinking about uncertainty. They can understand much more of the statistical and scientific discourse they encounter. And hopefully they have a greater appreciation for the value of formal methods. Students who already have strong formal tools and skills will, I hope, better understand their limitations. I want them to understand why these tools leave big questions open---not just philosophically, but also in very pressing, practical ways.
+
+`r newthought("The")`  book was made with the `bookdown` package created by Yihui Xie. It's a wonderful tool, built on a bunch of other technologies I love, especially the R programming language and the pandoc conversion tool created by philosopher John MacFarlane. The book's visual style emulates the famous designs of Edward Tufte, thanks to more software created by Yihui Xie, J. J. Allaire, and many others who adapted Tufte's designs to HTML and PDF (via LaTeX).
+
+If it weren't for these tools, I never would have written this book. It wouldn't have been possible to create one that does all the things this book is meant to do. I also owe inspiration to Kieran Healy's book [*Data Visualization: A Practical Introduction*](http://socviz.co/), which uses the same suite of tools. It gave me the idea to use those tools for an updated, open, and visually enhanced rendition of the classic material from Skyrms and Hacking.
+
+Finally, I'm indebted to several teaching assistants and students who helped with earlier drafts. Thanks especially to Liang Zhou Koh and Meagan Phillips, who contributed several exercises; to Soroush Marouzi and Daniel Munro, who worked out the kinks during the first semester the book was piloted; and to the students in that course, who bore with us, and contributed several corrections of their own.
+
+
+<!-- Default Statcounter code for Odds & Ends
+https://jonathanweisberg.org/vip/ -->
+<script type="text/javascript">
+var sc_project=12077193; 
+var sc_invisible=1; 
+var sc_security="6995a8df"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12077193/0/6995a8df/1/"
+alt="Web Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
